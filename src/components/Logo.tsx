@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils";
+import { cn, asset } from "@/lib/utils";
 
 interface LogoProps {
   className?: string;
@@ -9,7 +9,7 @@ export default function Logo({ className, light = false }: LogoProps) {
   return (
     <span className={cn("flex items-center gap-2.5", className)}>
       <img
-        src="/logo.png"
+        src={asset("/logo.png")}
         alt="Kakanfo Inn & Conference Centre logo"
         className="h-10 w-10 object-contain"
       />

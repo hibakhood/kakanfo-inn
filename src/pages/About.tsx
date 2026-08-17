@@ -7,7 +7,7 @@ import SectionHeading from "@/components/SectionHeading";
 import Reveal from "@/components/Reveal";
 import CallToAction from "@/components/CallToAction";
 import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
+import { cn, asset } from "@/lib/utils";
 import { iconMap } from "@/lib/icons";
 import { amenitiesList, coreValues, historyMilestones, mission, vision, chairman } from "@/data/content";
 import { siteConfig } from "@/lib/site";
@@ -43,7 +43,7 @@ export default function About() {
         eyebrow="Our Story"
         title="A house that holds Ibadan's great occasions"
         description="Kakanfo Inn & Conference Centre, a subsidiary of Kakanfo Enterprises Limited, is a prestigious hotel with 5-star comfort. Set in a serene environment, seventy minutes' drive from Lagos, we have been welcoming the world to Ring Road, Ibadan since October 1988."
-        image="/images/facilities/exterior-2.jpg"
+        image={asset("/images/facilities/exterior-2.jpg")}
       />
 
       {/* INTRO */}

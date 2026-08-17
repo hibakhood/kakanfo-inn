@@ -13,7 +13,7 @@ import { Button } from "@/components/ui/button";
 import { amenitiesList, diningVenues } from "@/data/content";
 import { siteConfig } from "@/lib/site";
 import { iconMap } from "@/lib/icons";
-import { cn } from "@/lib/utils";
+import { cn, asset } from "@/lib/utils";
 
 function BookingBar() {
   const navigate = useNavigate();
@@ -269,7 +269,7 @@ export default function Home() {
           <Reveal>
             <div className="relative">
               <img
-                src="/images/facilities/lobby.jpg"
+                src={asset("/images/facilities/lobby.jpg")}
                 alt="Kakanfo Inn lobby"
                 className="aspect-[4/5] w-full rounded-sm object-cover"
               />

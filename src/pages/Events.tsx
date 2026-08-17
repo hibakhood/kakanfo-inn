@@ -3,6 +3,7 @@ import JsonLd from "@/components/JsonLd";
 import PageHero from "@/components/PageHero";
 import EventCard from "@/components/EventCard";
 import CallToAction from "@/components/CallToAction";
+import { asset } from "@/lib/utils";
 import Reveal from "@/components/Reveal";
 import { useEventSpaces } from "@/hooks/useCatalog";
 import { siteConfig } from "@/lib/site";
@@ -51,7 +52,7 @@ export default function Events() {
         eyebrow="Events & Conference"
         title="Spaces that hold the moment"
         description="From the 2,000 guest Lekan Are Hall to an intimate boardroom — eight flexible venues, one attentive team, and in house catering, AV and décor."
-        image="/images/halls/lekan-are-hall-1.jpg"
+        image={asset("/images/halls/lekan-are-hall-1.jpg")}
       />
 
       <section className="border-b border-forest-950/10 bg-background">

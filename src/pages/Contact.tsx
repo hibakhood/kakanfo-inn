@@ -3,6 +3,7 @@ import { Phone, Mail, MapPin, Clock, Send, Loader2, CheckCircle2 } from "lucide-
 import Seo from "@/components/Seo";
 import PageHero from "@/components/PageHero";
 import { Button } from "@/components/ui/button";
+import { asset } from "@/lib/utils";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
@@ -93,7 +94,7 @@ export default function Contact() {
         eyebrow="Contact"
         title="We are always in"
         description="Reception runs around the clock, so there is always a human on the other end. Reach us however suits you."
-        image="/images/facilities/reception-1.jpg"
+        image={asset("/images/facilities/reception-1.jpg")}
       />
 
       <section className="container-site py-16 md:py-20">

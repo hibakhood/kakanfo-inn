@@ -1,3 +1,5 @@
+import { asset } from "@/lib/utils";
+
 export interface BlogPost {
   id: string;
   title: string;
@@ -39,7 +41,7 @@ export const blogPosts: BlogPost[] = [
       "\u201cHe was able to give us a practical example of one of his staff who has been working with them for over 45 years. So it's not just about theory, but about practicals \u2013 what people have been able to achieve and how they were able to achieve it.",
       "\u201cHow can the present entrepreneurs be able to pick certain things that will help them? Because once we have the staffing right, then it means that a business can thrive since people are actually the engine that drives any business to survive.\u201d",
     ],
-    image: "/images/blog/67_thumb.jpg",
+    image: asset("/images/blog/67_thumb.jpg"),
     url: original(
       "67",
       "Collaboration-key-to-Africas-hospitality-workforce-Kakanfo-Inn-CEO"
@@ -71,7 +73,7 @@ export const blogPosts: BlogPost[] = [
       "The high point of the event was the awards presentation to Governor Biodun Oyebanji, through Barr Wale-Ojo Lanre; Oba Fabunmi Oke Mesi; Arole Olutayo Ogedengbe Agbogungboro of Ilesa family; Owa Oye of Imesi Ile, through Oloye High Chief Olatunde Aluko; and Aare Afe Babalola, through Chief Morakinyo Kayegbon, among other awardees.",
       "Present at the event were the Gbonka Olubadan of Ibadanland, who represented the Olubadan-In-Council; Chief Arulogun; Imam Oke Are, Tirimisiyu; traditional rulers, Mogajis; and other dignitaries.",
     ],
-    image: "/images/blog/66_thumb.jpg",
+    image: asset("/images/blog/66_thumb.jpg"),
     url: original("66", "Yoruba-Kiriji-War-Descendants-reunite-140-years-after"),
   },
   {
@@ -95,7 +97,7 @@ export const blogPosts: BlogPost[] = [
       "He added that the 35 year old facility domiciled in Ibadan and established by his father, the late Chief Lekan Are, had a very high maintenance culture and was being run with the motivation that goes beyond sustaining his father's legacy.",
       "\u201cThere is a personal angle to it as well from my standpoint. That's why when I wake up every day, I have every reason to want to continue. Not just continue; being that I am a competitor, whatever he did, I wanted to do better,\u201d he stated.",
     ],
-    image: "/images/blog/65_thumb.jpg",
+    image: asset("/images/blog/65_thumb.jpg"),
     url: original(
       "65",
       "Nigeria-can-become-world-tourism-powerhouse-Kakanfo-Inn-CEO"
@@ -120,7 +122,7 @@ export const blogPosts: BlogPost[] = [
       "He said, \u201cWith the recent upgrade, we are delighted to be opening this spa and wellness centre to complement our offerings. We believe in providing our guests with a truly memorable experience. The spa adds another dimension to the serene environment that the hotel is known for, providing our guests with additional options to relax and unwind.\u201d",
       "The two day event also featured a therapy session, a wellness walk, exhibitions, networking sessions, and spa and wellness training for attendees.",
     ],
-    image: "/images/blog/64_thumb.jpg",
+    image: asset("/images/blog/64_thumb.jpg"),
     url: original(
       "64",
       "Lola-Spa-berths-with-radiance-at-Kakanfo-Inn-and-Conference-Centre"
@@ -142,7 +144,7 @@ export const blogPosts: BlogPost[] = [
       "Kakanfo Inn and Conference Centre, which has been a prominent player in the hospitality industry in Ibadan for over three decades, recently completed a massive renovation and expansion of its facilities, including the addition of a presidential villa and a state of the art conference centre.",
       "The hotel is known for its commitment to quality service, luxury, and comfort, and Bawa Continent is set to further cement its reputation as one of the best hospitality destinations in Nigeria.",
     ],
-    image: "/images/blog/63_thumb.jpg",
+    image: asset("/images/blog/63_thumb.jpg"),
     url: original(
       "63",
       "Kakanfo-Inn-and-Conference-Centre-serves-freshness-and-class-at-Bawa-Continent"
@@ -166,7 +168,7 @@ export const blogPosts: BlogPost[] = [
       "One of the beneficiaries, Mrs Rukayat Hammed, who spoke on behalf of others, described the gesture by the hotel company as well directed. She said, \"Times are hard. This is a good step. It is a big relief for us and we pray to God to bless the givers.\"",
       "The Operations Manager of the hotel, Oreoluwa Esan, said, \"Basically, what we gave was in the light of the COVID-19 scourge. This time, we decide to come to the aid of the older people who are presently feeling the pressure of these difficult times. We still hope to do some more.\"",
     ],
-    image: "/images/blog/62_thumb.jpg",
+    image: asset("/images/blog/62_thumb.jpg"),
     url: original(
       "62",
       "Kakanfo-Inn-and-Conference-Center-Distributes-Palliatives-to-Households-in-the-Kudeti-Area-of-Ibadan"
@@ -187,7 +189,7 @@ export const blogPosts: BlogPost[] = [
       "Mrs. Esan, who listed the items that were to be donated to the people to include Garri, Mangos, Rice and Catfish, said \"this is the company's way of being involved and doing our bit in assisting the indigent residents of Ibadan.\"",
       "Among those who benefited from the palliatives by the hotel were Aged people, Unemployed Youths, traders, beggars, and artisans.",
     ],
-    image: "/images/blog/61_thumb.jpg",
+    image: asset("/images/blog/61_thumb.jpg"),
     url: original(
       "61",
       "Kakanfo-Inn-and-Conference-Center-Distributes-Palliatives-to-the-Elders-and-Youth-of-Oke-Are-in-Ibadan"
@@ -198,7 +200,7 @@ export const blogPosts: BlogPost[] = [
     title: "A Letter to our Guests on the reopening of KICC and COVID-19",
     date: "Jun 8, 2020",
     author: "Adedamola Are",
-    image: "/images/blog/60_thumb.jpg",
+    image: asset("/images/blog/60_thumb.jpg"),
     excerpt:
       "In light of the easing of the lockdown, KAKANFO INN AND CONFERENCE CENTRE will be reopened fully and will commence operations in earnest. Our goal is to do business as safely as we can - safety is now the new priority.",
     content: [
@@ -235,7 +237,7 @@ export const blogPosts: BlogPost[] = [
       "\"We are going to teach them about finance. This involves what they need to do and how hard they need to work in life to get to their next level.\"",
       "Copyright PUNCH. Republished with permission",
     ],
-    image: "/images/blog/59_thumb.jpg",
+    image: asset("/images/blog/59_thumb.jpg"),
     url: original("59", "Ibadan-agog-for-Aminu-basketball-clinic"),
   },
   {
@@ -249,7 +251,7 @@ export const blogPosts: BlogPost[] = [
       "The Jericho Metro Rotary Club recognized Ms. Motunrayo Adegoke as the Team Member of the Year at Kakanfo Inn and Conference Centre, Ibadan. In addition, the club recognized the company for the continued partnership spanning three decades.",
       "Kakanfo Inn and Conference Center continues to partner with Jericho Metro Rotary, UCH, and the local communities to conduct annual eye outreach programs and care.",
     ],
-    image: "/images/blog/58_thumb.jpg",
+    image: asset("/images/blog/58_thumb.jpg"),
     url: original("58", "Jericho-Metro-Rotary-Club-recognizes-Kakanfo-Inn-and-Staff"),
   },
   {
@@ -257,7 +259,7 @@ export const blogPosts: BlogPost[] = [
     title: "Kakanfo Inn & Conference Centre supports free eye screening exercise by Rotary Club of Ibadan and UCH",
     date: "Jun 14, 2019",
     author: "PM Nigeria",
-    image: "/images/blog/55_thumb.jpg",
+    image: asset("/images/blog/55_thumb.jpg"),
     excerpt:
       "No fewer than 118 residents of Oyedeji Community in Igbo Elerin, Lagelu North Local Government Area of Ibadan have benefited from the free eye screening carried out by the Rotary Club of Ibadan, Jericho-Metro.",
     content: [
@@ -292,7 +294,7 @@ export const blogPosts: BlogPost[] = [
       "Describing the day as a special one in his life, Aminu said his visit to the Olubadan was out of respect for the influential monarch. He presented a basketball to the king at the end of the visit.",
       "Read the complete story at IBCITYNG",
     ],
-    image: "/images/blog/54_thumb.jpg",
+    image: asset("/images/blog/54_thumb.jpg"),
     url: original(
       "54",
       "NBA-player-Al-Farouq-Aminu-holds-basketball-camp-in-Ibadan-meets-Olubadan"
@@ -309,7 +311,7 @@ export const blogPosts: BlogPost[] = [
       "Students from The Lord's College take time out for a group picture with Kakanfo Inn managers following a property tour, which was one of the highlights of their day trip excursion to Kakanfo Inn and Conference Centre, earlier this month.",
       "Thank you for visiting our establishment. The management and staff was pleased to meet you, host you and show you around. We hope it was worth the trip!",
     ],
-    image: "/images/blog/53_thumb.jpg",
+    image: asset("/images/blog/53_thumb.jpg"),
     url: original("53", "Students-from-The-Lords-College-Ibadan-visit-Kakanfo-Inn"),
   },
   {
@@ -336,7 +338,7 @@ export const blogPosts: BlogPost[] = [
       "Make sure you take a look at the contract to get a feel for the deposit schedule; some hotels will require a 50% deposit when you book the event space, and then the other 50% closer to the day of \u2014 others work a bit differently.",
       "Got more or better tips for us? Send them our way and we'll share them.",
     ],
-    image: "/images/blog/49_thumb.jpg",
+    image: asset("/images/blog/49_thumb.jpg"),
     url: original(
       "49",
       "Hotel-Weddings-in-Nigeria-5-things-every-bride-should-know"
@@ -347,7 +349,7 @@ export const blogPosts: BlogPost[] = [
     title: "Places to visit in Ibadan",
     date: "Oct 22, 2014",
     author: "The Kakanfo Inn Blog",
-    image: "/images/blog/50_thumb.jpg",
+    image: asset("/images/blog/50_thumb.jpg"),
     excerpt:
       "A mixture of old world charm and modern attractions, Ibadan has many attractions for the tourists and visitors on business. The main attraction of Ibadan is the whole city and its position within Yoruba culture and history.",
     content: [
@@ -377,7 +379,7 @@ export const blogPosts: BlogPost[] = [
     title: "All you need to know about Ebola Virus",
     date: "Jul 29, 2014",
     author: "The Kakanfo Inn Blog",
-    image: "/images/blog/48_thumb.jpg",
+    image: asset("/images/blog/48_thumb.jpg"),
     excerpt:
       "Ebola Virus has become a household name overnight after the not so legendary Liberian, Patrick Sawyer introduced it into Nigeria... Here are some few tips that can help protect you and your family from the deadly virus.",
     content: [
@@ -441,7 +443,7 @@ export const blogPosts: BlogPost[] = [
       "Contemplate your navel!",
       "There aren't many times in life when there aren't too many things requiring your attention but if you're stuck in a hotel room during a trip then you don't need to work, you don't need to do housework, you probably don't even need to talk to anyone (except perhaps your travelling companion!). So enjoy it and do nothing for once!",
     ],
-    image: "/images/blog/47_thumb.jpg",
+    image: asset("/images/blog/47_thumb.jpg"),
     url: original("47", "8-things-to-do-when-youre-bored-in-a-hotel-room"),
   },
   {
@@ -462,7 +464,7 @@ export const blogPosts: BlogPost[] = [
       "While commending Are for the centre, the proprietress, Ajoke International School, Ibadan, Abimbola Are, said she was impressed with the centre and what it has achieved in a short time.",
       "\"Beneficiaries of this gesture will forever be grateful to Dr. Are. He has demonstrated the quality of a father and a leader and I enjoin wealthy Nigerians to emulate him,\" she said.",
     ],
-    image: "/images/blog/46_thumb.jpg",
+    image: asset("/images/blog/46_thumb.jpg"),
     url: original("46", "213-get-Lekan-Are-ICT-Centre-certificates"),
   },
   {
@@ -487,7 +489,7 @@ export const blogPosts: BlogPost[] = [
       "5. Additional Hotel Suite Amenities",
       "Our Kakanfo inn hotel have a pool and fitness centre. We also offer some sort of laundry or dry cleaning service, where the items are delivered back to room after pick up. Suite hotels also usually always have a TV, sometimes plasma or LCD, with different cable or satellite movie channels.",
     ],
-    image: "/images/blog/45_thumb.jpg",
+    image: asset("/images/blog/45_thumb.jpg"),
     url: original("45", "5-reasons-to-lodge-in-our-suites"),
   },
   {
@@ -512,7 +514,7 @@ export const blogPosts: BlogPost[] = [
       "Idowu said, \"Many people who have chronic eye problems would not have been in those conditions if their problems were detected early. These pupils will benefit greatly from this project but this is just one of the many ways individuals and groups can help the society.\"",
       "\"We have a huge population with many who are less-privileged. Those who have the means should emulate this gesture and help those in need.\"",
     ],
-    image: "/images/blog/43_thumb.jpg",
+    image: asset("/images/blog/43_thumb.jpg"),
     url: original("43", "Kakanfo-Rotary-give-optical-service-to-800-girls"),
   },
   {
@@ -525,7 +527,7 @@ export const blogPosts: BlogPost[] = [
     content: [
       "An Interview with Mr. Adedamola Olayinka Are, Vice Chairman and CEO - Kakanfo Inn. Mr. Are talks about his background and his vision for the company. In addition he gives insights into his thinking on issues such as corporate responsibility and community initiatives.",
     ],
-    image: "/images/blog/44_thumb.jpg",
+    image: asset("/images/blog/44_thumb.jpg"),
     url: original("44", "Meet-Our-CEO"),
   },
 ];

@@ -3,6 +3,7 @@ import Seo from "@/components/Seo";
 import JsonLd from "@/components/JsonLd";
 import PageHero from "@/components/PageHero";
 import Reveal from "@/components/Reveal";
+import { asset } from "@/lib/utils";
 import CallToAction from "@/components/CallToAction";
 import { blogPosts } from "@/data/blog";
 import { siteConfig } from "@/lib/site";
@@ -47,7 +48,7 @@ export default function Blog() {
         eyebrow="From the desk of the CEO"
         title="CEO's Blog"
         description="News, milestones and stories from Kakanfo Inn & Conference Centre — hospitality, community, culture and travel in Ibadan."
-        image="/images/facilities/chairman.jpg"
+        image={asset("/images/facilities/chairman.jpg")}
       />
 
       <section className="container-site py-16 md:py-20">

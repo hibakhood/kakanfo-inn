@@ -1,4 +1,5 @@
 import type { RoomCategory } from "@/types";
+import { asset } from "@/lib/utils";
 
 const sharedAmenities = [
   "Full size bathroom",
@@ -28,9 +29,9 @@ export const roomsFallback: RoomCategory[] = [
       "24-hour room service",
     ],
     images: [
-      "/images/rooms/classic-studio-1.jpg",
-      "/images/rooms/classic-studio-2.jpg",
-      "/images/rooms/classic-studio-3.jpg",
+      asset("/images/rooms/classic-studio-1.jpg"),
+      asset("/images/rooms/classic-studio-2.jpg"),
+      asset("/images/rooms/classic-studio-3.jpg"),
     ],
     total_rooms: 20,
     featured: false,
@@ -54,10 +55,10 @@ export const roomsFallback: RoomCategory[] = [
       "24-hour room service",
     ],
     images: [
-      "/images/rooms/luxury-room-hero.jpg",
-      "/images/rooms/luxury-room-1.jpg",
-      "/images/rooms/luxury-room-2.jpg",
-      "/images/rooms/luxury-room-3.jpg",
+      asset("/images/rooms/luxury-room-hero.jpg"),
+      asset("/images/rooms/luxury-room-1.jpg"),
+      asset("/images/rooms/luxury-room-2.jpg"),
+      asset("/images/rooms/luxury-room-3.jpg"),
     ],
     total_rooms: 40,
     featured: false,
@@ -81,7 +82,7 @@ export const roomsFallback: RoomCategory[] = [
       "Nespresso machine",
       "24-hour room service",
     ],
-    images: ["/images/rooms/classic-suite-1.jpg"],
+    images: [asset("/images/rooms/classic-suite-1.jpg")],
     total_rooms: 20,
     featured: false,
   },
@@ -108,9 +109,9 @@ export const roomsFallback: RoomCategory[] = [
       "24-hour room service",
     ],
     images: [
-      "/images/rooms/presidential-1-bed-1.jpg",
-      "/images/rooms/presidential-1-bed-2.jpg",
-      "/images/rooms/presidential-1-bed-3.jpg",
+      asset("/images/rooms/presidential-1-bed-1.jpg"),
+      asset("/images/rooms/presidential-1-bed-2.jpg"),
+      asset("/images/rooms/presidential-1-bed-3.jpg"),
     ],
     total_rooms: 10,
     featured: true,
@@ -139,10 +140,10 @@ export const roomsFallback: RoomCategory[] = [
       "24-hour room service",
     ],
     images: [
-      "/images/rooms/presidential-2-bed-1.jpg",
-      "/images/rooms/presidential-2-bed-2.jpg",
-      "/images/rooms/presidential-2-bed-3.jpg",
-      "/images/rooms/presidential-2-bed-4.jpg",
+      asset("/images/rooms/presidential-2-bed-1.jpg"),
+      asset("/images/rooms/presidential-2-bed-2.jpg"),
+      asset("/images/rooms/presidential-2-bed-3.jpg"),
+      asset("/images/rooms/presidential-2-bed-4.jpg"),
     ],
     total_rooms: 5,
     featured: true,

@@ -3,6 +3,7 @@ import JsonLd from "@/components/JsonLd";
 import PageHero from "@/components/PageHero";
 import RoomCard from "@/components/RoomCard";
 import CallToAction from "@/components/CallToAction";
+import { asset } from "@/lib/utils";
 import { useRooms } from "@/hooks/useCatalog";
 import { siteConfig } from "@/lib/site";
 import { Loader2 } from "lucide-react";
@@ -49,7 +50,7 @@ export default function Rooms() {
         eyebrow="Accommodation"
         title="Rooms & Suites"
         description="Ninety-five rooms across five categories — Classic Studios, Luxury Rooms, Classic Suites and one- and two-bedroom Presidential Suites — each finished to premium, modern 5-star comfort. Whatever brings you to Ibadan, there is a room here that fits."
-        image="/images/rooms/luxury-room-hero.jpg"
+        image={asset("/images/rooms/luxury-room-hero.jpg")}
       />
 
       <section className="container-site py-16 md:py-20">

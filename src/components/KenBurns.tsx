@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
+import { asset } from "@/lib/utils";
 
 const slides = [
-  { src: "/images/hero/exterior.jpg", alt: "Kakanfo Inn & Conference Centre exterior" },
-  { src: "/images/hero/reception.jpg", alt: "Kakanfo Inn reception" },
+  { src: asset("/images/hero/exterior.jpg"), alt: "Kakanfo Inn & Conference Centre exterior" },
+  { src: asset("/images/hero/reception.jpg"), alt: "Kakanfo Inn reception" },
 ];
 
 const SLIDE_DURATION = 8000;

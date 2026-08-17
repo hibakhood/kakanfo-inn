@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import KenBurns from "@/components/KenBurns";
+import { asset } from "@/lib/utils";
 
 export default function HeroShowreel() {
   const [phase, setPhase] = useState<"video" | "kenburns">("video");
@@ -18,8 +19,8 @@ export default function HeroShowreel() {
             transition={{ duration: 1.2, ease: "easeInOut" }}
           >
             <video
-              src="/videos/kakanfo-hero.mp4"
-              poster="/images/facilities/exterior-1.jpg"
+              src={asset("/videos/kakanfo-hero.mp4")}
+              poster={asset("/images/facilities/exterior-1.jpg")}
               autoPlay
               muted
               playsInline

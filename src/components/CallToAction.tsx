@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/lib/site";
+import { asset } from "@/lib/utils";
 
 interface CallToActionProps {
   title?: string;
@@ -19,7 +20,7 @@ export default function CallToAction({
         className="absolute inset-0 opacity-[0.07]"
         style={{
           backgroundImage:
-            "url(/images/facilities/exterior-2.jpg)",
+            `url(${asset("/images/facilities/exterior-2.jpg")})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

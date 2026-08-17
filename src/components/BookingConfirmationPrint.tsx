@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { formatDate, formatNaira } from "@/lib/utils";
+import { formatDate, formatNaira, asset } from "@/lib/utils";
 import { siteConfig } from "@/lib/site";
 import { getAddOnById } from "@/data/addons";
 import type { BookingTotals } from "./BookingSummary";
@@ -66,7 +66,7 @@ export default function BookingConfirmationPrint({
       <div className="border-b-2 border-forest-950 pb-6">
         <div className="flex items-start justify-between gap-8">
           <div className="flex items-center gap-3">
-            <img src="/logo.png" alt="Kakanfo Inn & Conference Centre" className="h-14 w-14 object-contain" />
+            <img src={asset("/logo.png")} alt="Kakanfo Inn & Conference Centre" className="h-14 w-14 object-contain" />
             <div>
               <p className="font-display text-xl font-bold leading-none text-forest-950">{siteConfig.name}</p>
               <p className="mt-1 text-xs font-semibold uppercase tracking-[0.2em] text-forest-700">

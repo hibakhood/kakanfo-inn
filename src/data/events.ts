@@ -1,4 +1,5 @@
 import type { EventSpace } from "@/types";
+import { asset } from "@/lib/utils";
 
 export const eventsFallback: EventSpace[] = [
   {
@@ -13,8 +14,8 @@ export const eventsFallback: EventSpace[] = [
     setup_styles: ["Banquet", "Theatre", "Classroom", "Reception", "Cabaret"],
     amenities: ["Modern catering kitchen", "Cold storage facility", "In-house AV", "Stage & podium", "Dance floor", "Guest Wi-Fi", "Air conditioning", "Parking"],
     images: [
-      "/images/halls/lekan-are-hall-1.jpg",
-      "/images/halls/lekan-are-hall-2.jpg",
+      asset("/images/halls/lekan-are-hall-1.jpg"),
+      asset("/images/halls/lekan-are-hall-2.jpg"),
     ],
     featured: true,
   },
@@ -29,7 +30,7 @@ export const eventsFallback: EventSpace[] = [
     price_per_day: 350000,
     setup_styles: ["Banquet", "Theatre", "Classroom", "Reception"],
     amenities: ["In-house AV", "Stage & podium", "Dance floor", "Guest Wi-Fi", "Air conditioning", "Parking"],
-    images: ["/images/halls/nihinlola-hall.jpg"],
+    images: [asset("/images/halls/nihinlola-hall.jpg")],
     featured: true,
   },
   {
@@ -43,7 +44,7 @@ export const eventsFallback: EventSpace[] = [
     price_per_day: 300000,
     setup_styles: ["Reception", "Banquet", "Theatre"],
     amenities: ["Outdoor stage", "Event lighting", "Garden setting", "Guest Wi-Fi", "On site catering", "Parking"],
-    images: ["/images/halls/awero-garden.jpg"],
+    images: [asset("/images/halls/awero-garden.jpg")],
     featured: true,
   },
   {
@@ -57,7 +58,7 @@ export const eventsFallback: EventSpace[] = [
     price_per_day: 250000,
     setup_styles: ["Banquet", "Theatre", "Reception", "Cabaret"],
     amenities: ["In-house AV", "Stage & podium", "Guest Wi-Fi", "Air conditioning", "Parking"],
-    images: ["/images/halls/damola-hall.jpg"],
+    images: [asset("/images/halls/damola-hall.jpg")],
     featured: false,
   },
   {
@@ -72,9 +73,9 @@ export const eventsFallback: EventSpace[] = [
     setup_styles: ["Classroom", "U-shape", "Theatre", "Cabaret"],
     amenities: ["Projector & screen", "Sound system", "Guest Wi-Fi", "Coffee break service", "Air conditioning", "Parking"],
     images: [
-      "/images/halls/allied-hall-1.jpg",
-      "/images/halls/allied-hall-2.jpg",
-      "/images/halls/allied-hall-3.jpg",
+      asset("/images/halls/allied-hall-1.jpg"),
+      asset("/images/halls/allied-hall-2.jpg"),
+      asset("/images/halls/allied-hall-3.jpg"),
     ],
     featured: false,
   },
@@ -90,8 +91,8 @@ export const eventsFallback: EventSpace[] = [
     setup_styles: ["Classroom", "U-shape", "Theatre", "Cabaret"],
     amenities: ["Projector & screen", "Flip chart", "Guest Wi-Fi", "Refreshments", "Air conditioning"],
     images: [
-      "/images/halls/mojisola-hall-1.jpg",
-      "/images/halls/mojisola-hall-2.jpg",
+      asset("/images/halls/mojisola-hall-1.jpg"),
+      asset("/images/halls/mojisola-hall-2.jpg"),
     ],
     featured: false,
   },
@@ -107,8 +108,8 @@ export const eventsFallback: EventSpace[] = [
     setup_styles: ["Reception", "Banquet", "Cabaret"],
     amenities: ["In-house AV", "Guest Wi-Fi", "Refreshments", "Air conditioning", "Dedicated service team"],
     images: [
-      "/images/halls/vip-hall-1.jpg",
-      "/images/halls/vip-hall-2.jpg",
+      asset("/images/halls/vip-hall-1.jpg"),
+      asset("/images/halls/vip-hall-2.jpg"),
     ],
     featured: false,
   },
@@ -124,8 +125,8 @@ export const eventsFallback: EventSpace[] = [
     setup_styles: ["Boardroom"],
     amenities: ['86" display', "Video conferencing", "Whiteboard", "Guest Wi-Fi", "Refreshments", "Air conditioning"],
     images: [
-      "/images/halls/ayo-boardroom-1.jpg",
-      "/images/halls/ayo-boardroom-2.jpg",
+      asset("/images/halls/ayo-boardroom-1.jpg"),
+      asset("/images/halls/ayo-boardroom-2.jpg"),
     ],
     featured: false,
   },

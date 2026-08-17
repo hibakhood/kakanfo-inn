@@ -5,6 +5,13 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
+const base = import.meta.env.BASE_URL;
+
+export function asset(path: string): string {
+  if (path.startsWith("http") || path.startsWith("data:")) return path;
+  return `${base}${path.startsWith("/") ? path.slice(1) : path}`;
+}
+
 export function formatNaira(amount: number): string {
   return new Intl.NumberFormat("en-NG", {
     style: "currency",

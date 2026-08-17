@@ -4,7 +4,7 @@ import PageHero from "@/components/PageHero";
 import GalleryLightbox from "@/components/GalleryLightbox";
 import CallToAction from "@/components/CallToAction";
 import { galleryImages } from "@/data/content";
-import { cn } from "@/lib/utils";
+import { cn, asset } from "@/lib/utils";
 
 const FILTERS = [
   { id: "all", label: "All" },
@@ -30,7 +30,7 @@ export default function Gallery() {
         eyebrow="Gallery"
         title="A look inside Kakanfo Inn"
         description="Rooms that rest, venues that impress, and grounds that hold a party well. Wander through a few of our favourite corners."
-        image="/images/halls/lekan-are-hall-1.jpg"
+        image={asset("/images/halls/lekan-are-hall-1.jpg")}
       />
 
       <section className="container-site py-16 md:py-20">
