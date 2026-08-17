@@ -4,7 +4,7 @@ export const siteConfig = {
   tagline: "Where Ibadan welcomes the world",
   description:
     "A subsidiary of Kakanfo Enterprises Limited, Kakanfo Inn & Conference Centre is a prestigious 5-star comfort hotel on Ring Road, Ibadan — ninety-five beautifully crafted rooms, world class multipurpose halls, and warm Yoruba hospitality.",
-  url: "https://kakanfoinn.com",
+  url: "https://hibakhood.github.io/kakanfo-inn",
   iso: "NS-EN ISO 9001:2008",
   established: 1988,
   rooms: 95,
