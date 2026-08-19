@@ -135,7 +135,7 @@ export const diningVenues: DiningVenue[] = [
       "Assorted fast foods and beverages served poolside — burgers, grills, cold drinks and the easy, unhurried pace of the pool deck.",
     cuisine: "Fast food & beverages",
     hours: "10:00am – 11:00pm",
-    image: asset("/images/facilities/swimming-pool.jpg"),
+    image: asset("/images/facilities/pool-bar.jpg"),
   },
   {
     name: "Bawa Continent Garden",
@@ -165,7 +165,8 @@ export const galleryImages: GalleryImage[] = [
   { id: "g15", src: asset("/images/rooms/presidential-2-bed-2.jpg"), alt: "Presidential Suite 2 Bed", category: "rooms" },
   { id: "g16", src: asset("/images/rooms/presidential-2-bed-3.jpg"), alt: "Presidential Suite 2 Bed", category: "rooms" },
   { id: "g17", src: asset("/images/rooms/presidential-2-bed-4.jpg"), alt: "Presidential Suite 2 Bed", category: "rooms" },
-  { id: "g18", src: asset("/images/facilities/swimming-pool.jpg"), alt: "Funke Pool Bar & Swimming Pool", category: "facilities" },
+  { id: "g18", src: asset("/images/facilities/pool-bar.jpg"), alt: "Funke Pool Bar", category: "facilities" },
+  { id: "g18b", src: asset("/images/facilities/swimming-pool.jpg"), alt: "Swimming Pool", category: "facilities" },
   { id: "g19", src: asset("/images/facilities/lobby.jpg"), alt: "Hotel Lobby", category: "facilities" },
   { id: "g20", src: asset("/images/facilities/guest-lobby.jpg"), alt: "Guest Lobby", category: "facilities" },
   { id: "g21", src: asset("/images/facilities/reception-1.jpg"), alt: "Reception", category: "facilities" },
