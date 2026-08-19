@@ -53,9 +53,9 @@ export default function Rooms() {
         image={asset("/images/rooms/luxury-room-hero.jpg")}
       />
 
-      <section className="container-site py-16 md:py-20">
+      <section className="container-site py-12 md:py-16">
         {loading ? (
-          <div className="flex justify-center py-24">
+          <div className="flex justify-center py-16">
             <Loader2 className="h-8 w-8 animate-spin text-primary" />
           </div>
         ) : (

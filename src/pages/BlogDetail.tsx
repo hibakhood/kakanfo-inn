@@ -13,7 +13,7 @@ export default function BlogDetail() {
 
   if (!post) {
     return (
-      <section className="container-site flex min-h-[60vh] flex-col items-center justify-center py-24 text-center">
+      <section className="container-site flex min-h-[60vh] flex-col items-center justify-center py-16 text-center">
         <h1 className="font-display text-3xl font-normal text-forest-950">Article not found</h1>
         <p className="mt-3 max-w-md text-muted-foreground">
           We couldn't find that story. It may have been moved or removed.

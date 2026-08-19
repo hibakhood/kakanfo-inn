@@ -47,7 +47,7 @@ export default function About() {
       />
 
       {/* INTRO */}
-      <section className="container-site py-16 md:py-24">
+      <section className="container-site py-12 md:py-16">
         <div className="grid items-start gap-14 lg:grid-cols-2 lg:gap-20">
           <Reveal>
             <div className="space-y-5 leading-relaxed text-muted-foreground">
@@ -104,7 +104,7 @@ export default function About() {
       </section>
 
       {/* VISION & MISSION */}
-      <section className="border-y border-forest-950/10 bg-background py-16 md:py-24">
+      <section className="border-y border-forest-950/10 bg-background py-12 md:py-16">
         <div className="container-site grid gap-12 md:grid-cols-2 md:gap-16">
           <Reveal>
             <p className="eyebrow-rule text-brass-500">
@@ -130,7 +130,7 @@ export default function About() {
       </section>
 
       {/* CORE VALUES */}
-      <section className="container-site py-16 md:py-24">
+      <section className="container-site py-12 md:py-16">
         <SectionHeading
           eyebrow="Core Values"
           title="What the house stands on"
@@ -152,7 +152,7 @@ export default function About() {
       </section>
 
       {/* HISTORY */}
-      <section className="bg-forest-950 py-16 md:py-24">
+      <section className="bg-forest-950 py-12 md:py-16">
         <div className="container-site">
           <SectionHeading
             eyebrow="Since 1988"
@@ -174,7 +174,7 @@ export default function About() {
       </section>
 
       {/* CHAIRMAN */}
-      <section className="container-site py-16 md:py-24">
+      <section className="container-site py-12 md:py-16">
         <div className="grid items-start gap-14 lg:grid-cols-[0.8fr_1.2fr] lg:gap-20">
           <Reveal>
             <div className="relative overflow-hidden rounded-sm bg-forest-950 p-10">
@@ -248,7 +248,7 @@ export default function About() {
       </section>
 
       {/* AMENITIES */}
-      <section className="border-t border-forest-950/10 bg-background py-16 md:py-24">
+      <section className="border-t border-forest-950/10 bg-background py-12 md:py-16">
         <div className="container-site">
           <SectionHeading
             eyebrow="Amenities"

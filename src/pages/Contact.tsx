@@ -97,7 +97,7 @@ export default function Contact() {
         image={asset("/images/facilities/reception-1.jpg")}
       />
 
-      <section className="container-site py-16 md:py-20">
+      <section className="container-site py-12 md:py-16">
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {CONTACTS.map((c) => {
             const Icon = c.icon;

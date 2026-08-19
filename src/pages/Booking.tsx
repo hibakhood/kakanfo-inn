@@ -208,7 +208,7 @@ export default function Booking() {
 
       <section className="container-site py-10 md:py-14 print:hidden">
         {loading ? (
-          <div className="flex justify-center py-24">
+          <div className="flex justify-center py-16">
             <Loader2 className="h-8 w-8 animate-spin text-primary" />
           </div>
         ) : (

@@ -33,7 +33,7 @@ export default function Gallery() {
         image={asset("/images/halls/lekan-are-hall-1.jpg")}
       />
 
-      <section className="container-site py-16 md:py-20">
+      <section className="container-site py-12 md:py-16">
         <div className="flex flex-wrap gap-2">
           {FILTERS.map((f) => (
             <button

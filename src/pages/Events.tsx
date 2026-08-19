@@ -56,7 +56,7 @@ export default function Events() {
       />
 
       <section className="border-b border-forest-950/10 bg-background">
-        <div className="container-site grid gap-10 py-16 md:py-20 lg:grid-cols-[1fr_1.4fr] lg:items-center">
+        <div className="container-site grid gap-10 py-12 md:py-16 lg:grid-cols-[1fr_1.4fr] lg:items-center">
           <Reveal>
             <p className="eyebrow-rule text-brass-300">
               <span className="text-[0.7rem] font-semibold uppercase tracking-[0.3em] text-brass-600">
@@ -83,9 +83,9 @@ export default function Events() {
         </div>
       </section>
 
-      <section className="container-site py-16 md:py-20">
+      <section className="container-site py-12 md:py-16">
         {loading ? (
-          <div className="flex justify-center py-24">
+          <div className="flex justify-center py-16">
             <Loader2 className="h-8 w-8 animate-spin text-primary" />
           </div>
         ) : (

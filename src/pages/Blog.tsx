@@ -51,7 +51,7 @@ export default function Blog() {
         image={asset("/images/facilities/chairman.jpg")}
       />
 
-      <section className="container-site py-16 md:py-20">
+      <section className="container-site py-12 md:py-16">
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {blogPosts.map((post, i) => (
             <Reveal key={post.id} delay={(i % 3) * 0.06} className="h-full">

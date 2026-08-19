@@ -236,7 +236,7 @@ export default function Home() {
       </section>
 
       {/* AMENITIES */}
-      <section className="container-site py-20 md:py-28">
+      <section className="container-site py-14 md:py-20">
         <SectionHeading
           align="center"
           eyebrow="Amenities"
@@ -264,7 +264,7 @@ export default function Home() {
       </section>
 
       {/* ABOUT */}
-      <section className="bg-forest-950 py-20 md:py-28">
+      <section className="bg-forest-950 py-14 md:py-20">
         <div className="container-site grid items-center gap-14 lg:grid-cols-2 lg:gap-20">
           <Reveal>
             <div className="relative">
@@ -318,7 +318,7 @@ export default function Home() {
       </section>
 
       {/* DINING */}
-      <section className="container-site py-20 md:py-28">
+      <section className="container-site py-14 md:py-20">
         <SectionHeading
           eyebrow="Dining"
           title="Three ways to eat well in Ibadan"
@@ -354,7 +354,7 @@ export default function Home() {
       </section>
 
       {/* TESTIMONIALS */}
-      <section className="border-y border-forest-950/10 bg-background py-20 md:py-28">
+      <section className="border-y border-forest-950/10 bg-background py-14 md:py-20">
         <div className="container-site">
           <SectionHeading
             align="center"
